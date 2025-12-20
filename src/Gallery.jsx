@@ -1,67 +1,67 @@
 const rides = [
   {
     name: "Pirates Revenge",
-    images: ["src/assets/rides/pirates_revenge.jpg", "src/assets/rides/pirate_revenge_photo2.jpg", "src/assets/rides/pirate_revenge_photo3.jpg"],
+    images: ["assets/rides/pirates_revenge.jpg", "assets/rides/pirate_revenge_photo2.jpg", "assets/rides/pirate_revenge_photo3.jpg"],
     description: "A classic crowd-favorite ride for all ages."
   },
   {
     name: "Ballistic Swing Ride",
-    images: ["src/assets/rides/Ballistic_Swing_Ride.png", "src/assets/rides/BALLISTIC_SWING_RIDE_PHOTO2.jpg", "src/assets/rides/BALLISTIC_SWING_RIDE_PHOTO3.jpg"],
+    images: ["assets/rides/Ballistic_Swing_Ride.png", "assets/rides/BALLISTIC_SWING_RIDE_PHOTO2.jpg", "assets/rides/BALLISTIC_SWING_RIDE_PHOTO3.jpg"],
     description: "Ride the waves without getting wet."
   },
   {
     name: "Reckless Mechanical Ride",
-    images: ["src/assets/rides/reckless_main_photo.jpg", "src/assets/rides/reckless_mechanical_photo1.jpg", "src/assets/rides/reckless_mechanical_photo3.jpg"],
+    images: ["assets/rides/reckless_main_photo.jpg", "assets/rides/reckless_mechanical_photo1.jpg", "assets/rides/reckless_mechanical_photo3.jpg"],
     description: "Test your balance and hang on tight!"
   },
     {
     name: "Tornado Ride",
-    images: ["src/assets/rides/tornado.png"],
+    images: ["assets/rides/tornado.png"],
     description: "Test your balance and hang on tight!"
   },
   {
     name: "Rodeo Pumpkin Mechanical Ride",
-    images: ["src/assets/rides/Rodeo_Pumpkin_Ride.jpg"],
+    images: ["assets/rides/Rodeo_Pumpkin_Ride.jpg"],
     description: "Friendly competition and big laughs."
   },
   {
     name: "Mechanical Bull Ride",
-    images: ["src/assets/rides/bull_ride.png"],
+    images: ["assets/rides/bull_ride.png"],
     description: "Perfect for kids and family events."
   },
   {
     name: "Mind Winder",
-    images: ["src/assets/rides/MIND_WINDER.jpg", "src/assets/rides/MIND_WINDER2.jpg", "src/assets/rides/MIND_WINDER3.jpg"],
+    images: ["assets/rides/MIND_WINDER.jpg", "assets/rides/MIND_WINDER2.jpg", "assets/rides/MIND_WINDER3.jpg"],
     description: "Winter fun, anytime of year."
   },
   {
     name: "Saddle Up Mechanical Ride",
-    images: ["src/assets/rides/saddle_up.png"],
+    images: ["assets/rides/saddle_up.png"],
     description: "A classic crowd-favorite ride for all ages."
   },
     {
     name: "Wrecking Ball",
-    images: ["src/assets/rides/wrecking_ball1.jpg", "src/assets/rides/wrecking_ball2.jpg", "src/assets/rides/wrecking_ball3.jpg"],
+    images: ["assets/rides/wrecking_ball1.jpg", "assets/rides/wrecking_ball2.jpg", "assets/rides/wrecking_ball3.jpg"],
     description: "A classic crowd-favorite ride for all ages."
   },
   {
     name: "Turbo Tubs of Fun",
-    images: ["src/assets/rides/turbo_tubs.png"],
+    images: ["assets/rides/turbo_tubs.png"],
     description: "Ride the waves without getting wet."
   },
   {
     name: "Berry Go Round",
-    images: ["src/assets/rides/berry.png"],
+    images: ["assets/rides/berry.png"],
     description: "Test your balance and hang on tight!"
   },
   {
     name: "Jitter Bug",
-    images: ["src/assets/rides/jitter.png"],
+    images: ["assets/rides/jitter.png"],
     description: "Friendly competition and big laughs."
   },
   {
     name: "Zip Line (Spectrum)",
-    images: ["src/assets/rides/zipline.png"],
+    images: ["assets/rides/zipline.png"],
     description: "Perfect for kids and family events."
   }
 ];

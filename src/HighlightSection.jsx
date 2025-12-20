@@ -3,7 +3,7 @@ function HighlightSection() {
     <div className="highlight-blue">
       <div className="container">
         <div className="intro">
-          <img className="main-logo" src="src\assets\logo.png" alt="logo" />
+          <img className="main-logo" src="assets\logo.png" alt="logo" />
           <p className="about-us-text">
             Located in Long Island, Topline Mechanical Rides is the premier provider of mechanical ride services across the Tri-State area. 
             We offer a large selection of exciting mechanical rides, designed to bring energy, fun, and unforgettable memories to any event. 

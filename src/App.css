@@ -115,7 +115,7 @@
   color:#fff;
   /*background-color:#1e6add;*/
   padding:50px 0;
-  background: url("/src/assets/logo_background.png") no-repeat center;
+  background: url("assets/logo_background.png") no-repeat center;
   background-size:cover;
 }
 
@@ -545,7 +545,7 @@ iframe {
 .register-photo .image-holder {
   display:table-cell;
   width:auto;
-  background:url("src/assets/rides/ferris_wheel.png");
+  background:url("assets/rides/ferris_wheel.png");
   background-size:cover;
 }
 

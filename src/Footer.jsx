@@ -7,25 +7,21 @@ function Footer() {
               <div className="col-sm-6 col-md-3 item">
                 <h3>Services</h3>
                 <ul>
-                  <li><a href="#">Lazertag</a></li>
-                  <li><a href="#">Arcade</a></li>
-                  <li><a href="#">Events</a></li>
+
                 </ul>
               </div>
               <div className="col-sm-6 col-md-3 item">
                 <h3>About</h3>
                 <ul>
-                  <li><a href="#">Company</a></li>
-                  <li><a href="#">Team</a></li>
-                  <li><a href="#">Safety</a></li>
+
                 </ul>
               </div>
               <div className="col-md-6 item text">
-                <h3>BONKERZ AMUSEMENT PARK</h3>
+                <h3>Topline Mechanical Rides</h3>
                 <p>
-                  Bonkerz is the best place for kids entertainment and development.
-                  We host various games and events such as birthday parties, mini
-                  golf, lazertag and much more!
+                Topline Mechanical Rides specializes in renting high-quality mechanical rides for events of all sizes. 
+                From parties and festivals to corporate events and community gatherings, we bring exciting, safe, and unforgettable 
+                ride experiences straight to you.
                 </p>
               </div>
               <div className="col item social">
@@ -35,7 +31,7 @@ function Footer() {
                 <a href="#"><i className="icon ion-social-instagram"></i></a>
               </div>
             </div>
-            <p className="copyright">Bonkerz © 2018</p>
+            <p className="copyright">Topline Mechanical Rides © 2018</p>
           </div>
         </footer>
       </div>
