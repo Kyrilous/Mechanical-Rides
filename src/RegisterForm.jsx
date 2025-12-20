@@ -1,5 +1,4 @@
 
-
 function RegisterForm() {
   return (
     <div className="register-photo">
@@ -7,7 +6,7 @@ function RegisterForm() {
         <div className="image-holder"></div>
         <form method="post">
           <h2 className="text-center">
-            <strong>Schedule an Event</strong>
+            <strong>Contact Us!</strong>
           </h2>
           <div className="form-group">
             <input

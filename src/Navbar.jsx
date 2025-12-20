@@ -2,47 +2,64 @@ function Navbar() {
   return (
     <nav className="navbar navbar-dark navbar-expand-md navigation-clean">
       <div className="container">
-        <a href="#" className="navbar-brand text-white">
+        
+        {/* Logo */}
+        <a href="#about" className="navbar-brand">
           <img
+            className="nav-logo"
             src="src\assets\logo.png"
             width="50"
-            alt="logo"
+            alt="Topline Mechanical Rides Logo"
           />
         </a>
+
+        {/* Mobile toggle */}
         <button
-          data-toggle="collapse"
-          data-target="#navcol-1"
           className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navcol-1"
+          aria-controls="navcol-1"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <span className="sr-only">Toggle navigation</span>
           <span className="navbar-toggler-icon"></span>
         </button>
+
+        {/* Links */}
         <div className="collapse navbar-collapse" id="navcol-1">
-          <ul className="nav navbar-nav ml-auto">
+          <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a href="#" className="nav-link active">
-                Mechanical Rides
+              <a href="#about" className="nav-link">
+                About Us
               </a>
             </li>
+
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="#gallery" className="nav-link">
+                Gallery
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a href="#inquire" className="nav-link">
+                Inquire
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a href="#reviews" className="nav-link">
                 Customer Reviews
               </a>
             </li>
-            <li className="nav-item">
-              <a href="#" className="nav-link">
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#" className="nav-link">
-                Reserve
-              </a>
-            </li>
+
+
           </ul>
         </div>
       </div>
     </nav>
   );
 }
+
 export default Navbar;
+

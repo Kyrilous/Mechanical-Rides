@@ -1,77 +1,3 @@
-.article-list {
-  color:#313437;
-  background-color:#fff;
-}
-
-.article-list p {
-  color:#7d8285;
-}
-
-.article-list h2 {
-  font-weight:bold;
-  margin-bottom:40px;
-  padding-top:40px;
-  color:inherit;
-}
-
-@media (max-width:767px) {
-  .article-list h2 {
-    margin-bottom:25px;
-    padding-top:40px;
-    font-size:24px;
-  }
-}
-
-.article-list .intro {
-  font-size:16px;
-  max-width:500px;
-  margin:0 auto;
-}
-
-.article-list .intro p {
-  margin-bottom:0;
-}
-
-.article-list .articles {
-  padding-bottom:40px;
-  margin-top:30px;
-}
-
-.article-list .item {
-  padding-top:50px;
-  min-height:425px;
-  text-align:center;
-}
-
-.article-list .item .name {
-  font-weight:bold;
-  font-size:16px;
-  margin-top:20px;
-  color:inherit;
-}
-
-.article-list .item .description {
-  font-size:14px;
-  margin-top:15px;
-  margin-bottom:0;
-}
-
-.article-list .item .action {
-  font-size:24px;
-  width:24px;
-  margin:22px auto 0;
-  line-height:1;
-  display:block;
-  color:#4f86c3;
-  opacity:0.85;
-  transition:opacity 0.2s;
-  text-decoration:none;
-}
-
-.article-list .item .action:hover {
-  opacity:1;
-}
-
 .brands {
   color:#313437;
   background-color:#fff;
@@ -189,9 +115,20 @@
   color:#fff;
   /*background-color:#1e6add;*/
   padding:50px 0;
-  background:url("https://image.ibb.co/jzvX6e/bg_1.jpg") no-repeat center;
+  background: url("/src/assets/logo_background.png") no-repeat center;
   background-size:cover;
 }
+
+.main-logo {
+  border: 5px solid transparent; 
+  border-radius: 30px;
+  background: 
+    linear-gradient(white, white) padding-box, 
+    linear-gradient(to right, #ffafc7, #73d7ee, #004cff) border-box; 
+  background-clip: padding-box, border-box; 
+  background-origin: border-box;
+}
+
 
 .highlight-blue p {
   /*color:#c4d5ef;*/
@@ -329,6 +266,15 @@
   text-align:center;
 }
 
+.about-us-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #ffffff;
+
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
 
 
 
@@ -339,9 +285,7 @@ iframe {
   border:5px solid red;
 }
 
-h1.text-center {
-  margin:50px auto;
-}
+
 
 .highlight-blue .intro img {
   margin:30px auto;
@@ -357,6 +301,14 @@ h1.text-center {
 .article-list .row-articles a img {
   /*width:100px;*/
   height:100px;
+}
+
+.article-list-title {
+  padding-top: 30px;
+  font-size:40px;
+  margin-bottom:10px;
+  color: #69c6f0;
+  text-shadow: 1.3px 1.3px rgba(0, 0, 0, 0.6);
 }
 
 .social-icons .icon {
@@ -593,7 +545,7 @@ h1.text-center {
 .register-photo .image-holder {
   display:table-cell;
   width:auto;
-  background:url("https://image.ibb.co/gabGXK/contact.jpg");
+  background:url("src/assets/rides/ferris_wheel.png");
   background-size:cover;
 }
 
@@ -602,7 +554,7 @@ h1.text-center {
   max-width:900px;
   width:90%;
   margin:0 auto;
-  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+  box-shadow:-5px -5px 15px rgba(131, 236, 255, 0.555);
 }
 
 .register-photo form {
@@ -819,6 +771,70 @@ h1.text-center {
 .navbar{
   background: linear-gradient(to right, #f3ff12, #b17c00);
 }
+.nav-logo{
+  border: 1px solid transparent; 
+  border-radius: 5px;
+  background: 
+    linear-gradient(white, white) padding-box, 
+    linear-gradient(to right, #ffafc7, #73d7ee, #004cff) border-box; 
+  background-clip: padding-box, border-box; 
+  background-origin: border-box;
+  scale: 150%;
+}
 
 
 
+/* Hide arrows until hover */
+.ride-card .carousel-control-prev,
+.ride-card .carousel-control-next {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.ride-card:hover .carousel-control-prev,
+.ride-card:hover .carousel-control-next {
+  opacity: 1;
+}
+
+
+.ride-card .carousel-control-prev,
+.ride-card .carousel-control-next {
+  width: 18%;
+}
+
+
+.ride-card .carousel-control-prev-icon,
+.ride-card .carousel-control-next-icon {
+  background-image: none;            
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  background-color: rgba(0,0,0,0.45);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Draw arrows */
+.ride-card .carousel-control-prev-icon::after {
+  content: "‹";
+  color: white;
+  font-size: 26px;
+  line-height: 1;
+  transform: translateX(-1px);
+}
+
+.ride-card .carousel-control-next-icon::after {
+  content: "›";
+  color: white;
+  font-size: 26px;
+  line-height: 1;
+  transform: translateX(1px);
+}
+
+/* Hover effect */
+.ride-card .carousel-control-prev:hover .carousel-control-prev-icon,
+.ride-card .carousel-control-next:hover .carousel-control-next-icon {
+  background-color: rgba(0,0,0,0.65);
+}

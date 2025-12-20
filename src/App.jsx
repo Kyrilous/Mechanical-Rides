@@ -4,48 +4,42 @@ import Hero from "./Hero.jsx";
 import SecondaryNavbar from "./SecondaryNavbar.jsx";
 import VideoSection from "./VideoSection.jsx";
 import HighlightSection from "./HighlightSection.jsx";
-import Articles from "./Articles.jsx";
+import Articles from "./Gallery.jsx";
 import RegisterForm from "./RegisterForm.jsx";  
 import Testimonials from "./Testimonials.jsx";    
 import SocialIcons from "./SocialIcons.jsx";  
 import Footer from "./Footer.jsx";
+import Gallery from "./Gallery.jsx";
 
 
 function App() {
   return (
     <div>
-      {/* Top Navbar */}
       <Navbar />
 
-      {/* Hero Section */}
-      {/* <Hero /> */}
+      {/* About Us / Highlight */}
+      <div id="about">
+        <HighlightSection />
+      </div>
 
-      {/* Secondary Navbar */}
-      {/* <SecondaryNavbar /> */}
-      
-      {/* Video Section */}
-      {/* <VideoSection /> */}
+      {/* Gallery */}
+      <div id="gallery">
+        <Gallery />
+      </div>
 
-      {/* Highlight Section */}
-      <HighlightSection />
-      
-      {/* Articles */}
-      <Articles />
+      {/* Inquire */}
+      <div id="inquire">
+        <RegisterForm />
+      </div>
 
-      {/* Register Form */}
-      <RegisterForm />
+      {/* Customer Reviews */}
+      <div id="reviews">
+        <Testimonials />
+      </div>
 
-      {/* Testimonials */}
-      <Testimonials />
-
-      {/* Social Icons */}
       <SocialIcons />
-
-      {/* Footer */}
       <Footer />
     </div>
-
   );
 }
-
 export default App;
