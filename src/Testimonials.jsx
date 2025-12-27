@@ -15,12 +15,12 @@ function Testimonials() {
                 My school had a pep rally today and top line outdid themselves. Our students had a blast, staff, and parent volunteers. 
                 They worked with us on our budget and we’re on time, friendly, and really wanted the kids to have a good time. Can't wait for our
                 next event! Thank you!
-              </p>
+              </p> 
             </div>
             <div className="author">
               <img
                 className="rounded-circle"
-                src="public\assets\reviews\Gilda_Review.png"
+                src="assets\reviews\Gilda_Review.png"
                 alt="reviewer"
               />
               <h5 className="name">Gilda Capellan</h5>
@@ -37,7 +37,7 @@ function Testimonials() {
             <div className="author">
               <img
                 className="rounded-circle"
-                src="public\assets\reviews\Maggie_Review.png"
+                src="assets\reviews\Maggie_Review.png"
                 alt="reviewer"
               />
               <h5 className="name">Maggie Somerville</h5>
@@ -53,7 +53,7 @@ function Testimonials() {
             <div className="author">
               <img
                 className="rounded-circle"
-                src="public\assets\reviews\shamika.png"
+                src="assets\reviews\shamika.png"
                 alt="reviewer"
               />
               <h5 className="name">Shamika Rodgers</h5>
