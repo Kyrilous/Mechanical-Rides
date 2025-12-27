@@ -208,9 +208,15 @@
   padding: 50px 0;
   background: url("/assets/logo_background.png") no-repeat center;
   background-size: cover;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
 }
 
+
 .main-logo {
+  display: block;
+  margin: 0 auto; 
   border: 5px solid transparent; 
   border-radius: 30px;
   background: 
@@ -219,6 +225,7 @@
   background-clip: padding-box, border-box; 
   background-origin: border-box;
 }
+
 
 
 .highlight-blue p {
