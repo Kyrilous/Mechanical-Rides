@@ -6,15 +6,15 @@ function Footer() {
           <div className="row">
             {/* LEFT: Brand + Description */}
             <div className="col-md-6 item text">
-              <h3>Topline Mechanical Rides</h3>
+              <h3>Creative Amusements</h3>
               <p>
-                Topline Mechanical Rides specializes in renting high-quality mechanical rides for events of all sizes.
+                Creative Amusements specializes in renting high-quality mechanical rides for events of all sizes.
                 From parties and festivals to corporate events and community gatherings, we bring exciting, safe, and unforgettable
                 ride experiences straight to you.
               </p>
             </div>
 
-            {/* RIGHT: Instagram */}
+           
             <div className="col-md-6 item social">
               <div className="footer-ig-card">
                 <h5>Follow Us On Instagram</h5>
@@ -36,7 +36,7 @@ function Footer() {
           </div>
 
           <p className="copyright">
-            Topline Mechanical Rides © {new Date().getFullYear()}
+            Creative Amusements © {new Date().getFullYear()}
           </p>
         </div>
       </footer>

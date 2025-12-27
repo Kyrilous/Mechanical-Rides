@@ -5,10 +5,10 @@ function HighlightSection() {
         <div className="intro">
           <img className="main-logo" src="assets\logo.png" alt="logo" />
           <p className="about-us-text">
-            Located in Long Island, Topline Mechanical Rides is the premier provider of mechanical ride services across the Tri-State area. 
+            Located in Long Island, Creative Amusements is the premier provider of mechanical ride services across the Tri-State area. 
             We offer a large selection of exciting mechanical rides, designed to bring energy, fun, and unforgettable memories to any event. 
             From thrilling attractions to visually stunning setups, our rides are built to captivate and entertain guests of all ages. 
-            At Topline Mechanical Rides, we take pride in combining excitement with safety—every ride is maintained to the highest standards 
+            At Creative Amusements, we take pride in combining excitement with safety—every ride is maintained to the highest standards 
             to ensure not only an enjoyable experience but also complete reliability and security. Whether for private parties, community events, 
             or large-scale celebrations, we aim to elevate your event and create lasting impressions.
           </p>

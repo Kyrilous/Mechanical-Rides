@@ -12,7 +12,7 @@ function Testimonials() {
           <div className="col-md-6 col-lg-4 item">
             <div className="box">
               <p className="description">
-                My school had a pep rally today and top line outdid themselves. Our students had a blast, staff, and parent volunteers. 
+                My school had a pep rally today and Creative Amusements outdid themselves. Our students had a blast, staff, and parent volunteers. 
                 They worked with us on our budget and we’re on time, friendly, and really wanted the kids to have a good time. Can't wait for our
                 next event! Thank you!
               </p> 
@@ -46,7 +46,7 @@ function Testimonials() {
           <div className="col-md-6 col-lg-4 item">
             <div className="box">
               <p className="description">
-                I've used Top Line Party Rental several times over the last couple of years for my corporate events. 
+                I've used Creative Amusements several times over the last couple of years for my corporate events. 
                 They are truly the best with the best equipment, rentals, staff and prices. I look forward to our next event with them.
               </p>
             </div>
