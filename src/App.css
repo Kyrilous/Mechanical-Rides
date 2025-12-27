@@ -904,7 +904,6 @@ iframe {
   justify-content: center;
 }
 
-/* Draw arrows */
 .ride-card .carousel-control-prev-icon::after {
   content: "‹";
   color: white;
@@ -921,8 +920,61 @@ iframe {
   transform: translateX(1px);
 }
 
-/* Hover effect */
 .ride-card .carousel-control-prev:hover .carousel-control-prev-icon,
 .ride-card .carousel-control-next:hover .carousel-control-next-icon {
   background-color: rgba(0,0,0,0.65);
 }
+
+.ride-card{
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #ffffff; 
+  border: 1px solid rgba(255,255,255,0.55);
+
+  box-shadow:
+    0 10px 28px rgba(0,0,0,0.12),
+    0 0 0 1px rgba(255,255,255,0.70),
+    0 0 14px rgba(255,255,255,0.45);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.ride-card:hover{
+  transform: translateY(-6px);
+  box-shadow:
+    0 16px 40px rgba(0,0,0,0.16),
+    0 0 0 1px rgba(255,255,255,0.95),
+    0 0 22px rgba(255,255,255,0.65),
+    0 0 46px rgba(255,255,255,0.35);
+}
+
+.ride-card::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  pointer-events: none;
+  z-index: 1; 
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.55),
+    inset 0 0 0 1px rgba(255,255,255,0.25);
+}
+
+.ride-card > *{
+  position: relative;
+  z-index: 2;
+}
+
+.ride-card img{
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  display: block;
+}
+
+body {
+  background-color: #00000012;
+}
+
+
