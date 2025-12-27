@@ -76,7 +76,7 @@ function RegisterForm() {
           name: "Website Inquiry",
           email,
           phone: "", // not collected in this form (keep for API compatibility)
-          message: `Event Date: ${eventDate || "N/A"}\n\nMessage: ${message}`,
+          message: `Event Date: ${eventDate || "N/A"}\n\n${message}`,
         }),
       });
 
