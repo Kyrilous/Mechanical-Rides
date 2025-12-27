@@ -52,6 +52,7 @@ function RegisterForm() {
   const [email, setEmail] = useState("");
   const [eventDate, setEventDate] = useState("");
   const [message, setMessage] = useState("");
+  const [phone, setPhone] = useState("");
 
   const [isSending, setIsSending] = useState(false);
   const [status, setStatus] = useState({ type: "", text: "" }); // "", "success", "error"
@@ -75,7 +76,7 @@ function RegisterForm() {
         body: JSON.stringify({
           name: "Website Inquiry",
           email,
-          phone: "", // not collected in this form (keep for API compatibility)
+          phone, 
           message: `Event Date: ${eventDate || "N/A"}\n\n${message}`,
         }),
       });
@@ -137,6 +138,19 @@ function RegisterForm() {
               required
             />
           </div>
+
+          <div className="form-group">
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              className="form-control"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
+              disabled={isSending}
+            />
+          </div>
+
 
           <div className="form-group">
             <input
