@@ -2,126 +2,71 @@ const rides = [
   {
     name: "Pirates Revenge",
     images: ["assets/rides/pirates_revenge.jpg", "assets/rides/pirate_revenge_photo2.jpg", "assets/rides/pirate_revenge_photo3.jpg"],
-    description: "A classic crowd-favorite ride for all ages."
+    description: "A miniature swinging pirate ship that delivers classic amusement park thrills for kids, teens, and adults."
   },
   {
     name: "Ballistic Swing Ride",
     images: ["assets/rides/Ballistic_Swing_Ride.png", "assets/rides/BALLISTIC_SWING_RIDE_PHOTO2.jpg", "assets/rides/BALLISTIC_SWING_RIDE_PHOTO3.jpg"],
-    description: "Ride the waves without getting wet."
+    description: "A high-flying chair swing ride that lifts riders to near 45 degrees with music and eye-catching LED lights."
   },
   {
     name: "Reckless Mechanical Ride",
     images: ["assets/rides/reckless_main_photo.jpg", "assets/rides/reckless_mechanical_photo1.jpg", "assets/rides/reckless_mechanical_photo3.jpg"],
-    description: "Test your balance and hang on tight!"
+    description: "A thrilling swing-and-spin ride designed to challenge balance and deliver nonstop excitement for teens and adults."
   },
     {
     name: "Tornado Ride",
     images: ["assets/rides/tornado.png"],
-    description: "Test your balance and hang on tight!"
+    description: "A fast-spinning carnival ride that combines swinging motion with intense rotation for thrill seekers."
   },
   {
     name: "Rodeo Pumpkin Mechanical Ride",
     images: ["assets/rides/Rodeo_Pumpkin_Ride.jpg"],
-    description: "Friendly competition and big laughs."
+    description: "A fun Halloween-themed mechanical ride where riders try to stay on a bouncing jack-o’-lantern."
   },
   {
     name: "Mechanical Bull Ride",
     images: ["assets/rides/bull_ride.png"],
-    description: "Perfect for kids and family events."
+    description: "A classic mechanical bull experience that tests balance, skill, and stamina one rider at a time."
   },
   {
     name: "Mind Winder",
     images: ["assets/rides/MIND_WINDER.jpg", "assets/rides/MIND_WINDER2.jpg", "assets/rides/MIND_WINDER3.jpg"],
-    description: "Winter fun, anytime of year."
+    description: "A high-energy ride that mixes chair swings and spinning motion, reaching up to 16 rotations per minute."
   },
   {
     name: "Saddle Up Mechanical Ride",
     images: ["assets/rides/saddle_up.png"],
-    description: "A classic crowd-favorite ride for all ages."
+    description: "A western-themed bench swing ride that seats large groups and can be adjusted for all ages."
   },
     {
     name: "Wrecking Ball",
     images: ["assets/rides/wrecking_ball1.jpg", "assets/rides/wrecking_ball2.jpg", "assets/rides/wrecking_ball3.jpg"],
-    description: "A classic crowd-favorite ride for all ages."
+    description: "A powerful swinging and spinning ride that lets riders face each other for an exciting group experience."
   },
   {
     name: "Turbo Tubs of Fun",
     images: ["assets/rides/turbo_tubs.png"],
-    description: "Ride the waves without getting wet."
+    description: "Bright, spinning tubs that provide fast-paced fun for kids and family-friendly events."
   },
   {
     name: "Berry Go Round",
     images: ["assets/rides/berry.png"],
-    description: "Test your balance and hang on tight!"
+    description: "A gentle spinning ride designed for younger riders and relaxed family entertainment."
   },
   {
     name: "Jitter Bug",
     images: ["assets/rides/jitter.png"],
-    description: "Friendly competition and big laughs."
+    description: "A classic carnival swing ride that lifts riders into the air while spinning for timeless fun."
   },
   {
     name: "Zip Line (Spectrum)",
     images: ["assets/rides/zipline.png"],
-    description: "Perfect for kids and family events."
+    description: "An exciting zip line attraction that lets riders safely soar through the air at your event."
   }
 ];
 
 
-
-// function Gallery() {
-//   return (
-    
-//     <div className="article-list">
-//       <h1 className="article-list-title"> Mechanical Rides!</h1>
-//       <div className="container">
-//         <div className="row articles">
-//           <div className="col-sm-6 col-md-4 item">
-//             <a href="#">
-//               <img
-//                 src="https://image.ibb.co/g9PEKz/img1.jpg"
-//                 className="img-fluid"
-//                 alt="Games"
-//               />
-//             </a>
-//             <h3 className="name">GAMES</h3>
-//             <p className="description">
-//               Aenean tortor est, vulputate quis leo in, vehicula rhoncus
-//               lacus...
-//             </p>
-//           </div>
-//           <div className="col-sm-6 col-md-4 item">
-//             <a href="#">
-//               <img
-//                 src="https://image.ibb.co/jdKQRe/img2.jpg"
-//                 className="img-fluid"
-//                 alt="Parties"
-//               />
-//             </a>
-//             <h3 className="name">PARTIES</h3>
-//             <p className="description">
-//               Praesent aliquam in tellus eu gravida. Aliquam varius finibus
-//               est...
-//             </p>
-//           </div>
-//           <div className="col-sm-6 col-md-4 item">
-//             <a href="#">
-//               <img
-//                 src="https://image.ibb.co/epyKme/img3.png"
-//                 className="img-fluid"
-//                 alt="Dates"
-//               />
-//             </a>
-//             <h3 className="name">DATES</h3>
-//             <p className="description">
-//               Aliquam varius finibus est, interdum justo suscipit id...
-//             </p>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-// export default Gallery;
 
 function Gallery() {
   return (
@@ -153,8 +98,7 @@ function Gallery() {
                       </div>
                     ))}
                   </div>
-
-                  {/* Controls (only show if >1 image) */}
+                  
                   {ride.images.length > 1 && (
                     <>
                       <button
