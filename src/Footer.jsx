@@ -1,40 +1,47 @@
 function Footer() {
-    return (
+  return (
     <div className="footer-dark">
-        <footer>
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-6 col-md-3 item">
-                <h3>Services</h3>
-                <ul>
-
-                </ul>
-              </div>
-              <div className="col-sm-6 col-md-3 item">
-                <h3>About</h3>
-                <ul>
-
-                </ul>
-              </div>
-              <div className="col-md-6 item text">
-                <h3>Topline Mechanical Rides</h3>
-                <p>
-                Topline Mechanical Rides specializes in renting high-quality mechanical rides for events of all sizes. 
-                From parties and festivals to corporate events and community gatherings, we bring exciting, safe, and unforgettable 
+      <footer>
+        <div className="container">
+          <div className="row">
+            {/* LEFT: Brand + Description */}
+            <div className="col-md-6 item text">
+              <h3>Topline Mechanical Rides</h3>
+              <p>
+                Topline Mechanical Rides specializes in renting high-quality mechanical rides for events of all sizes.
+                From parties and festivals to corporate events and community gatherings, we bring exciting, safe, and unforgettable
                 ride experiences straight to you.
-                </p>
-              </div>
-              <div className="col item social">
-                <a href="#"><i className="icon ion-social-facebook"></i></a>
-                <a href="#"><i className="icon ion-social-twitter"></i></a>
-                <a href="#"><i className="icon ion-social-snapchat"></i></a>
-                <a href="#"><i className="icon ion-social-instagram"></i></a>
+              </p>
+            </div>
+
+            {/* RIGHT: Instagram */}
+            <div className="col-md-6 item social">
+              <div className="footer-ig-card">
+                <h5>Follow Us On Instagram</h5>
+                <a
+                  href="https://www.instagram.com/toplinepartyrentals/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Visit our Instagram"
+                >
+                  <svg className="ig-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect>
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <circle cx="17.5" cy="6.5" r="1"></circle>
+                  </svg>
+                </a>
+                <p className="footer-ig-hint">@toplinepartyrentals</p>
               </div>
             </div>
-            <p className="copyright">Topline Mechanical Rides © 2018</p>
           </div>
-        </footer>
-      </div>
-    );
+
+          <p className="copyright">
+            Topline Mechanical Rides © {new Date().getFullYear()}
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
 }
+
 export default Footer;

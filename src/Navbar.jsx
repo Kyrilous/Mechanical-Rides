@@ -7,7 +7,7 @@ function Navbar() {
         <a href="#about" className="navbar-brand">
           <img
             className="nav-logo"
-            src="assets\logo.png"
+            src="assets/logo.png"
             width="50"
             alt="Topline Mechanical Rides Logo"
           />
@@ -28,7 +28,7 @@ function Navbar() {
 
         {/* Links */}
         <div className="collapse navbar-collapse" id="navcol-1">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav mx-auto">
             <li className="nav-item">
               <a href="#about" className="nav-link">
                 About Us
