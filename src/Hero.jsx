@@ -8,7 +8,7 @@ export default function Hero() {
       </div>
 
       <div className="hero-content">
-        <p className="hero-kicker">Topline Mechanical Rides</p>
+        <p className="hero-kicker">Creatuce Amusements</p>
 
         <h1 className="hero-title">
           Premium Mechanical Ride Rentals for{" "}
