@@ -6,6 +6,8 @@ import VideoSection from "./VideoSection.jsx";
 import HighlightSection from "./HighlightSection.jsx";
 import Articles from "./Gallery.jsx";
 import RegisterForm from "./RegisterForm.jsx";  
+import Rides from "./Rides";
+import About from "./About";
 import Testimonials from "./Testimonials.jsx";    
 import SocialIcons from "./SocialIcons.jsx";  
 import Footer from "./Footer.jsx";
@@ -17,27 +19,23 @@ function App() {
     <div>
       <Navbar />
 
-      {/* About Us / Highlight */}
-      <div id="about">
-        <HighlightSection />
+      <div id="top"> 
+        <Hero />
       </div>
 
-      {/* Gallery */}
-      <div id="gallery">
-        <Gallery />
+      <About />
+
+      <div id="rides"> 
+        <Rides />
       </div>
 
-      {/* Inquire */}
       <div id="inquire">
         <RegisterForm />
       </div>
 
-      {/* Customer Reviews */}
       <div id="reviews">
         <Testimonials />
       </div>
-
-      <SocialIcons />
       <Footer />
     </div>
   );

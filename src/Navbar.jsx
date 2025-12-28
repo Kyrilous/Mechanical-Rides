@@ -1,9 +1,26 @@
+import { useEffect } from "react";
+
 function Navbar() {
+
+  useEffect(() => {
+    const nav = document.getElementById("main-navbar");
+
+    const onScroll = () => {
+      if (window.scrollY > 40) {
+        nav.classList.add("scrolled");
+      } else {
+        nav.classList.remove("scrolled");
+      }
+    };
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <nav className="navbar navbar-dark navbar-expand-md navigation-clean">
+    <nav className="navbar navbar-expand-md navbar-glass" id="main-navbar">
       <div className="container">
         
-        {/* Logo */}
         <a href="#about" className="navbar-brand">
           <img
             className="nav-logo"
@@ -13,7 +30,6 @@ function Navbar() {
           />
         </a>
 
-        {/* Mobile toggle */}
         <button
           className="navbar-toggler"
           type="button"
@@ -26,7 +42,6 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Links */}
         <div className="collapse navbar-collapse" id="navcol-1">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
@@ -52,8 +67,6 @@ function Navbar() {
                 Customer Reviews
               </a>
             </li>
-
-
           </ul>
         </div>
       </div>
@@ -62,4 +75,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
