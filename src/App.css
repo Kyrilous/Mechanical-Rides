@@ -775,8 +775,8 @@ html {
     height: 200px;
   }
 
-  .navbar-toggler {
-    padding-right: 32px;
+  .navbar-toggler-icon {
+    margin-right: 32px
 
   }
 }
