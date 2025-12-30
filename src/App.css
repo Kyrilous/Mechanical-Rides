@@ -774,6 +774,11 @@ html {
   .ride-card img {
     height: 200px;
   }
+
+  .navbar-toggler-icon {
+    padding-right: 32px;
+
+  }
 }
 
 
