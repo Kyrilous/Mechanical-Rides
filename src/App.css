@@ -668,6 +668,13 @@ html {
     radial-gradient(circle at 20% 30%, rgba(255,78,205,0.10), transparent 45%),
     radial-gradient(circle at 80% 70%, rgba(106,227,255,0.08), transparent 45%);
   pointer-events: none;
+  z-index: 0;
+}
+
+.rides-section .section-title,
+.rides-section .rides-grid {
+  position: relative;
+  z-index: 1;
 }
 
 .section-title {
@@ -797,6 +804,8 @@ html {
   .navbar-glass .navbar-toggler {
     margin-right: 14px;   
   }
+
+   .rides-section { overflow: visible; }
 
 }
 
