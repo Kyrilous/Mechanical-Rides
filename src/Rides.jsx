@@ -126,20 +126,32 @@ export default function Rides() {
 
   useEffect(() => {
   const els = document.querySelectorAll(".reveal, .reveal-stagger");
+  if (!els.length) return;
+
+  if (!("IntersectionObserver" in window)) {
+    els.forEach((el) => el.classList.add("show"));
+    return;
+  }
 
   const io = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        if (entry.isIntersecting) entry.target.classList.add("show");
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+          io.unobserve(entry.target); 
+        }
       });
     },
-    { threshold: 0.15 }
+    {
+      threshold: 0.01,                 
+      rootMargin: "0px 0px -15% 0px", 
+    }
   );
 
   els.forEach((el) => io.observe(el));
-
   return () => io.disconnect();
 }, []);
+
 
 
   return (

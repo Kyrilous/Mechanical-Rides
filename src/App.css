@@ -809,8 +809,7 @@ html {
 
    .reveal, 
    .reveal-stagger > * { 
-      opacity: 1 !important;
-      transform: none !important;
+      transition-duration: 0.55s;
     }
 
 }
