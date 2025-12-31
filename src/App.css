@@ -640,10 +640,6 @@ html {
 
 
 
-
-
-
-
 /* ===== RIDES SECTION ====== */
 
 .rides-section {
@@ -1837,3 +1833,8 @@ body {
 .reveal-stagger.show > *:nth-child(8) { transition-delay: 0.40s; }
 .reveal-stagger.show > *:nth-child(9) { transition-delay: 0.45s; }
 .reveal-stagger.show > *:nth-child(10){ transition-delay: 0.50s; }
+.reveal-stagger.show > *:nth-child(11){ transition-delay: 0.55s; }
+.reveal-stagger.show > *:nth-child(12){ transition-delay: 0.60s; }
+.reveal-stagger.show > *:nth-child(13){ transition-delay: 0.65s; }
+.reveal-stagger.show > *:nth-child(14){ transition-delay: 0.70s; }
+.reveal-stagger.show > *:nth-child(15){ transition-delay: 0.75s; }
