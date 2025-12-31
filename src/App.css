@@ -630,12 +630,9 @@ html {
 .nav-logo{
   border: 1px solid transparent; 
   border-radius: 5px;
-  background: 
-    linear-gradient(white, white) padding-box, 
-    linear-gradient(to right, #ffafc7, #73d7ee, #004cff) border-box; 
   background-clip: padding-box, border-box; 
   background-origin: border-box;
-  scale: 150%;
+  scale: 180%;
 }
 
 

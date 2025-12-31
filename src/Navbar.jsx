@@ -24,7 +24,7 @@ function Navbar() {
         <a href="#about" className="navbar-brand">
           <img
             className="nav-logo"
-            src="assets/logo_clear.png"
+            src="/assets/logo_clear.png"
             width="50"
             alt="Topline Mechanical Rides Logo"
           />

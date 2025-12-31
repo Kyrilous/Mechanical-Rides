@@ -4,62 +4,62 @@ const rides = [
   {
     name: "Pirates Revenge",
     images: ["assets/rides/pirates_revenge.jpg", "assets/rides/pirate_revenge_photo2.jpg", "assets/rides/pirate_revenge_photo3.jpg"],
-    description: "A miniature swinging pirate ship that delivers classic amusement park thrills for kids, teens, and adults."
+    description: "A miniature swinging pirate ship that delivers classic amusement park thrills for kids, teens, and adults. Riders experience a smooth back-and-forth motion that steadily builds excitement. It’s the perfect introduction to classic thrill rides while staying fun and approachable for the whole family."
   },
   {
     name: "Ballistic Swing Ride",
     images: ["assets/rides/Ballistic_Swing_Ride.png", "assets/rides/BALLISTIC_SWING_RIDE_PHOTO2.jpg", "assets/rides/BALLISTIC_SWING_RIDE_PHOTO3.jpg"],
-    description: "A high-flying chair swing ride that lifts riders to near 45 degrees with music and eye-catching LED lights."
+    description: "A high-flying chair swing ride that lifts riders to near 45 degrees with music and eye- catching LED lights. Riders soar through the air while spinning in a wide circle, creating a thrilling sense of speed and height. It’s an adrenaline-pumping experience that combines motion, sound, and visuals for nonstop excitement."
   },
   {
     name: "Reckless Mechanical Ride",
     images: ["assets/rides/reckless_main_photo.jpg", "assets/rides/reckless_mechanical_photo1.jpg", "assets/rides/reckless_mechanical_photo3.jpg"],
-    description: "A thrilling swing-and-spin ride designed to challenge balance and deliver nonstop excitement for teens and adults."
+    description: "A thrilling swing-and-spin ride designed to challenge balance and deliver nonstop excitement for teens and adults. The ride combines rapid rotations with powerful swinging motions that keep riders guessing every second. It’s an intense attraction built for those who want a fast, unpredictable thrill."
   },
   {
     name: "Tornado Ride",
     images: ["assets/rides/tornado.png"],
-    description: "A fast-spinning carnival ride that combines swinging motion with intense rotation for thrill seekers."
+    description: "A fast-spinning carnival ride that combines swinging motion with intense rotation for thrill seekers. Riders are lifted and spun at high speeds, creating a powerful whirlwind sensation. This high-energy attraction delivers nonstop thrills for those who can handle the spin."
   },
   {
     name: "Rodeo Pumpkin Mechanical Ride",
     images: ["assets/rides/Rodeo_Pumpkin_Ride.jpg"],
-    description: "A fun Halloween-themed mechanical ride where riders try to stay on a bouncing jack-o’-lantern."
+    description: "A fun Halloween-themed mechanical ride where riders try to stay on a bouncing jack-o’- lantern. The ride moves unpredictably, testing balance and reflexes with every twist and bounce. It’s a festive challenge that delivers laughs, competition, and seasonal excitement."
   },
   {
     name: "Mechanical Bull Ride",
     images: ["assets/rides/bull_ride.png"],
-    description: "A classic mechanical bull experience that tests balance, skill, and stamina one rider at a time."
+    description: "A classic mechanical bull experience that tests balance, skill, and stamina one rider at a time. The bull bucks, spins, and changes speed to keep riders constantly off balance. It’s a competitive crowd-pleaser that delivers laughs, bragging rights, and serious fun."
   },
   {
     name: "Mind Winder",
     images: ["assets/rides/MIND_WINDER.jpg", "assets/rides/MIND_WINDER2.jpg", "assets/rides/MIND_WINDER3.jpg"],
-    description: "A high-energy ride that mixes chair swings and spinning motion, reaching up to 16 rotations per minute."
+    description: "A high-energy ride that mixes chair swings and spinning motion, reaching up to 16 rotations per minute. Riders are lifted outward as the speed increases, creating a powerful combination of centrifugal force and flight-like motion. It’s a fast, dizzying attraction built for thrill seekers who crave nonstop movement."
   },
   {
     name: "Saddle Up Mechanical Ride",
     images: ["assets/rides/saddle_up.png"],
-    description: "A western-themed bench swing ride that seats large groups and can be adjusted for all ages."
+    description: "A western-themed bench swing ride that seats large groups and can be adjusted for all ages. The ride swings back and forth smoothly, giving riders the sensation of riding through the Wild West. It’s a family-friendly attraction that combines fun, motion, and a touch of cowboy adventure."
   },
   {
     name: "Wrecking Ball",
     images: ["assets/rides/wrecking_ball1.jpg", "assets/rides/wrecking_ball2.jpg", "assets/rides/wrecking_ball3.jpg"],
-    description: "A powerful swinging and spinning ride that lets riders face each other for an exciting group experience."
+    description: "A powerful swinging and spinning ride that lets riders face each other for an exciting group experience. The ride’s unpredictable motions create sudden drops, swings, and spins that keep everyone on edge. It’s a thrilling challenge perfect for friends and families seeking high-energy fun together."
   },
   {
     name: "Turbo Tubs of Fun",
     images: ["assets/rides/turbo_tubs.png"],
-    description: "Bright, spinning tubs that provide fast-paced fun for kids and family-friendly events."
+    description: "Bright, spinning tubs that provide fast-paced fun for kids and family-friendly events. Riders sit inside individual tubs as they whirl around, creating a dizzying but safe adventure. It’s a playful attraction that combines speed, motion, and laughter for all ages."
   },
   {
     name: "Berry Go Round",
     images: ["assets/rides/berry.png"],
-    description: "A gentle spinning ride designed for younger riders and relaxed family entertainment."
+    description: "A gentle spinning ride designed for younger riders and relaxed family entertainment. Colorful seats and slow rotations make it a safe and enjoyable experience for little ones. It’s the perfect ride to introduce children to amusement park fun while keeping parents worry-free."
   },
   {
     name: "Jitter Bug",
     images: ["assets/rides/jitter.png"],
-    description: "A classic carnival swing ride that lifts riders into the air while spinning for timeless fun."
+    description: "A classic carnival swing ride that lifts riders into the air while spinning for timeless fun. Riders soar outward as the swings rotate, creating a gentle feeling of flight. It’s a nostalgic attraction that delivers excitement in a safe and family-friendly way."
   },
     {
     name: "Electric Majestic Trackless Train",
@@ -72,9 +72,9 @@ const rides = [
     description: "The Battle Bar is an extreme twist on the classic hang-bar challenge. Two participants go head-to-head, testing their strength and endurance as they’re lifted up to 20 feet in the air. An automated timer tracks and displays each competitor’s time, making the Battle Bar just as thrilling for spectators as it is for those brave enough to take on the challenge."
   },
   {
-    name: "Zip Line (Spectrum)",
+    name: "Zip Line",
     images: ["assets/rides/zipline.png"],
-    description: "An exciting zip line attraction that lets riders safely soar through the air at your event."
+    description: "An exciting zip line attraction that lets riders safely soar through the air at your event. Riders glide along a secure cable, experiencing speed and height in a controlled environment. It’s a thrilling adventure that combines adrenaline with breathtaking views."
   }
 ];
 
