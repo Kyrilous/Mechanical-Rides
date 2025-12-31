@@ -1,10 +1,6 @@
 import "./App.css";
 import Navbar from "./Navbar.jsx";
 import Hero from "./Hero.jsx";  
-import SecondaryNavbar from "./SecondaryNavbar.jsx";
-import VideoSection from "./VideoSection.jsx";
-import HighlightSection from "./HighlightSection.jsx";
-import Articles from "./Gallery.jsx";
 import RegisterForm from "./RegisterForm.jsx";  
 import Rides from "./Rides";
 import About from "./About";

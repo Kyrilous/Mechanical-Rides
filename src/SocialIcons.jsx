@@ -6,7 +6,6 @@ function SocialIcons() {
         background: "linear-gradient(to right, #933e33c1, #ecc115eb)",
       }}
     >
-      {/* content */}
     </div>
   );
 }
