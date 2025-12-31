@@ -807,6 +807,12 @@ html {
 
    .rides-section { overflow: visible; }
 
+   .reveal, 
+   .reveal-stagger > * { 
+      opacity: 1 !important;
+      transform: none !important;
+    }
+
 }
 
 
