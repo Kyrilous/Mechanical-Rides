@@ -17,10 +17,17 @@ function Footer() {
             <h5>Quick Links</h5>
             <a href="#top">Home</a>
             <a href="#rides">Rides</a>
-            <a href="#gallery">Gallery</a>
             <a href="#inquire">Inquire</a>
             <a href="#reviews">Reviews</a>
           </div>
+          <div className="footer-logo">
+             <img
+                src="/assets/logo_clear.png"
+                alt="Creative Amusements"
+                className="about-pro-logo"
+              />
+          </div>
+
 
           {/* <div className="footer-social">
             <h5>Social</h5>
