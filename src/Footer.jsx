@@ -22,7 +22,7 @@ function Footer() {
             <a href="#reviews">Reviews</a>
           </div>
 
-          <div className="footer-social">
+          {/* <div className="footer-social">
             <h5>Social</h5>
 
             <div className="footer-ig-card">
@@ -51,7 +51,7 @@ function Footer() {
                 New posts, event setups, and ride highlights.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="footer-bottom">
