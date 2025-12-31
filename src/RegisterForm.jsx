@@ -64,6 +64,9 @@ function RegisterForm() {
         </p>
       </div>
 
+
+
+
       <div className="inquire-card">
         <form className="inquire-form" onSubmit={handleSubmit}>
           {/* Status message */}
@@ -135,6 +138,10 @@ function RegisterForm() {
             </div>
           </div>
         </form>
+      </div>
+      <div className="inquire-direct">
+        Contact us directly at{" "}
+        <a href="tel:4019341560">(401) 934-1560</a>
       </div>
     </div>
   </section>

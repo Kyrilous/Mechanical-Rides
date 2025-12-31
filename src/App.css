@@ -253,8 +253,9 @@ html {
 
 .about-pro-features {
   display: grid;
-  gap: 12px;
+  gap: 10px;
   margin-bottom: 22px;
+  padding-right: 24px;
 }
 
 .about-pro-feature {
@@ -264,7 +265,7 @@ html {
   padding: 14px;
   border-radius: 18px;
   border: 1px solid rgba(255,255,255,0.10);
-  background: rgba(10,10,15,0.58);
+  background: rgba(10,10,15,0.78);
 }
 
 .about-pro-feature h4 {
@@ -645,10 +646,28 @@ html {
 
 /* ===== RIDES SECTION ====== */
 
-.rides-section {
+/* .rides-section {
   padding: 120px 20px;
   background: #0b0b10;
   color: #ffffff;
+} */
+
+.rides-section {
+
+  position: relative;
+  background: #0b0b10;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.rides-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255,78,205,0.10), transparent 45%),
+    radial-gradient(circle at 80% 70%, rgba(106,227,255,0.08), transparent 45%);
+  pointer-events: none;
 }
 
 .section-title {
@@ -1289,6 +1308,26 @@ iframe {
   max-width: 980px;
   margin: 0 auto;
 }
+
+
+.inquire-direct {
+  text-align: center;
+  margin: 10px 0 22px;
+  font-size: 1rem;
+  color: rgba(255,255,255,0.75);
+}
+
+.inquire-direct a {
+  color: #6ae3ff;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.inquire-direct a:hover {
+  text-decoration: underline;
+}
+
+
 
 .inquire-head {
   text-align: center;

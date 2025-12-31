@@ -51,14 +51,14 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              <a href="#gallery" className="nav-link">
+              <a href="#rides" className="nav-link">
                 Gallery
               </a>
             </li>
 
             <li className="nav-item">
               <a href="#inquire" className="nav-link">
-                Inquire
+                Contact Us
               </a>
             </li>
 

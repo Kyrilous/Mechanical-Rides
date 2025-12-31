@@ -4,12 +4,16 @@ export default function About() {
       <div className="about-pro-wrap reveal">
         <div className="about-pro-card">
           <div className="about-pro-left">
-            <h2 className="about-pro-title">About Creative Amusements</h2>
+            <h2 className="about-pro-title">About Tri State Amusements</h2>
 
             <p className="about-pro-text">
-              Based in Long Island and serving the Tri-State area, Creative Amusements provides
-              high-quality mechanical rides for events of all sizes. Our focus is simple:
-              clean presentation, professional operation, and unforgettable experiences.
+              Tri-State Amusements is a full-service amusement and mechanical ride company proudly serving the Tri-State area, 
+              providing high-quality portable amusement rides, attractions, and event entertainment for a wide range of events. 
+              From large festivals and town fairs to school functions, corporate events, and private celebrations, we deliver safe, 
+              professional, and memorable experiences. With years of experience in the amusement and event entertainment industry, 
+              Tri-State Amusements has built a reputation for reliability, safety, and top-tier customer service. Our inventory includes 
+              a diverse selection of mechanical rides, carnival attractions, and interactive games, all designed to be portable and adaptable 
+              to venues of all sizes.
             </p>
 
             <div className="about-pro-features">
@@ -62,7 +66,7 @@ export default function About() {
               <div className="brand-line" />
 
               <img
-                src="/assets/logo.png"
+                src="/assets/logo_clear.png"
                 alt="Creative Amusements"
                 className="about-pro-logo"
               />
@@ -76,7 +80,7 @@ export default function About() {
                   <span className="mini-dot" />
                   <div>
                     <strong>Tri-State Service</strong>
-                    <span>Long Island • NYC • NJ • CT</span>
+                    <span>: Long Island • NYC • NJ • CT</span>
                   </div>
                 </div>
 
@@ -84,7 +88,7 @@ export default function About() {
                   <span className="mini-dot" />
                   <div>
                     <strong>Professional Setup</strong>
-                    <span>On-time • Clean • Reliable</span>
+                    <span>: On-time • Clean • Reliable</span>
                   </div>
                 </div>
               </div>

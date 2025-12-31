@@ -5,9 +5,9 @@ function Footer() {
         <div className="footer-top">
           {/* Brand */}
           <div className="footer-brand">
-            <h3 className="footer-title">Creative Amusements</h3>
+            <h3 className="footer-title">Tri State Amusements</h3>
             <p className="footer-desc">
-              Creative Amusements specializes in renting high-quality mechanical rides for events of all sizes.
+              Tri State Amusements specializes in renting high-quality mechanical rides for events of all sizes.
               From parties and festivals to corporate events and community gatherings, we bring exciting, safe,
               and unforgettable ride experiences straight to you.
             </p>
@@ -56,7 +56,7 @@ function Footer() {
 
         <div className="footer-bottom">
           <p className="footer-copy">
-            Creative Amusements © {new Date().getFullYear()}
+            Tri State Amusements © {new Date().getFullYear()}
           </p>
           <p className="footer-made">Built for unforgettable events.</p>
         </div>

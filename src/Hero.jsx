@@ -7,8 +7,18 @@ export default function Hero() {
         <div className="grid-overlay" />
       </div>
 
+    <div className="hero-logo">
+        <img
+          src="assets/logo_clear.png"
+          width="350"
+          alt="Topline Mechanical Rides Logo"
+        />
+    </div>
+
+
+
       <div className="hero-content">
-        <p className="hero-kicker">Creative Amusements</p>
+        <p className="hero-kicker">Tri State Amusements</p>
 
         <h1 className="hero-title">
           Premium Mechanical Ride Rentals for{" "}

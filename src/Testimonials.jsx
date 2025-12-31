@@ -4,7 +4,7 @@ function Testimonials() {
       name: "Gilda Capellan",
       img: "/assets/reviews/Gilda_Review.png",
       text:
-        "My school had a pep rally today and Creative Amusements outdid themselves. Our students had a blast, staff, and parent volunteers. They worked with us on our budget and we’re on time, friendly, and really wanted the kids to have a good time. Can't wait for our next event! Thank you!",
+        "My school had a pep rally today and Tri State Amusements outdid themselves. Our students had a blast, staff, and parent volunteers. They worked with us on our budget and we’re on time, friendly, and really wanted the kids to have a good time. Can't wait for our next event! Thank you!",
     },
     {
       name: "Maggie Somerville",
@@ -16,7 +16,7 @@ function Testimonials() {
       name: "Shamika Rodgers",
       img: "/assets/reviews/shamika.png",
       text:
-        "I've used Creative Amusements several times over the last couple of years for my corporate events. They are truly the best with the best equipment, rentals, staff and prices. I look forward to our next event with them.",
+        "I've used Tri State Amusements several times over the last couple of years for my corporate events. They are truly the best with the best equipment, rentals, staff and prices. I look forward to our next event with them.",
     },
   ];
 

@@ -61,6 +61,16 @@ const rides = [
     images: ["assets/rides/jitter.png"],
     description: "A classic carnival swing ride that lifts riders into the air while spinning for timeless fun."
   },
+    {
+    name: "Electric Majestic Trackless Train",
+    images: ["assets/rides/magestictrain1.png", "assets/rides/magestictrain2.png", "assets/rides/magestictrain3.png"],
+    description: "Tri-State Amusements proudly offers an electric trackless train that can carry up to 18 passengers per ride. This crowd-favorite attraction delivers a smooth, fun experience for guests of all ages. Perfect for festivals, town events, college campuses, shopping centers, and private events, the trackless train adds charm, excitement, and unforgettable memories to any occasion."
+  },
+    {
+    name: "Battle Bar ",
+    images: ["assets/rides/battlebar.png", "assets/rides/battlebar2.png"],
+    description: "The Battle Bar is an extreme twist on the classic hang-bar challenge. Two participants go head-to-head, testing their strength and endurance as they’re lifted up to 20 feet in the air. An automated timer tracks and displays each competitor’s time, making the Battle Bar just as thrilling for spectators as it is for those brave enough to take on the challenge."
+  },
   {
     name: "Zip Line (Spectrum)",
     images: ["assets/rides/zipline.png"],
